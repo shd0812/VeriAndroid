@@ -178,10 +178,10 @@ def output_test_results():
 				#print line[-7:-1]
 				print u'第%d 个测试通过' % i
 			else:
-				msg = line[-7:-1]+'测试失败'
+				msg = line+'测试失败'
 				log.build_case(msg)
 				#print line[-7:-1]
-				print line[-7:-1]
+				print line
 	log.build_end_line()			
 		
 	#list1 = []
