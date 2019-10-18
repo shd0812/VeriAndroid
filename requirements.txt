@@ -9,7 +9,7 @@ decorator==4.1.2
 Django==1.8.2
 et-xmlfile==1.0.1
 filelock==2.0.12
-Flask==0.12.2
+Flask==1.0
 Flask-Admin==1.5.0
 Flask-Login==0.4.1
 flask-mongoengine==0.9.3
